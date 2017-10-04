@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-// import Countries from '../components/Countries'
+import Countries from '../components/Countries'
+import Ships from '../components/Ships'
 import data from '../data/log.json'
 
 class Travels extends Component {
@@ -8,7 +9,8 @@ class Travels extends Component {
 
 		this.state = {
 			loading: true,
-			countries: data,
+			countries: data.countries,
+			ships: data.ships
 		}
 	}
 
@@ -16,9 +18,8 @@ class Travels extends Component {
 		return (
 			<div>
 				<h1>Hi</h1>
-				{this.state.countries.map(data => {
-					return <p>{data.last_name}</p>
-				})}
+				<Countries countries={this.state.countries} />
+				<Ships ships={this.state.ships} />
 			</div>
 		)
 	}
