@@ -1,29 +1,595 @@
 {
-	"countries": [
-		{
-		  "name": "Bermuda",
-		  "visits": 22,
-		  "color": "red"
-		},
-		{
-		  "name": "China",
-		  "visits": 1,
-		  "color": "blue"
-		},
-		{
-		  "name": "Virgin Islands",
-		  "visits": 2,
-		  "color": "#222"
-		}
-	],
-	"ships": [
-		{
-			"name": "SS Far North", 
-			"year": 1954
-		},
-		{
-			"name": "SS Santa Maria",
-			"year": 1955
-		}
-	]
+  "countries": [
+    {
+      "name": "Angaur",
+      "visits": "2",
+      "color": "#56a83c"
+    },
+    {
+      "name": "Antigua",
+      "visits": "5",
+      "color": "#ce1126"
+    },
+    {
+      "name": "Argentina",
+      "visits": "2",
+      "color": "rgb(117,170,219)"
+    },
+    {
+      "name": "Aruba",
+      "visits": "10",
+      "color": "rgb(0,114,198)"
+    },
+    {
+      "name": "Bahamas",
+      "visits": "3",
+      "color": "rgb(0,173,198)"
+    },
+    {
+      "name": "Barbados",
+      "visits": "6",
+      "color": "rgb(255,198,30)"
+    },
+    {
+      "name": "Bermuda",
+      "visits": "22",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "Bonaire",
+      "visits": "1",
+      "color": "rgb(37,40,135)"
+    },
+    {
+      "name": "Guyana",
+      "visits": "2",
+      "color": "rgb(0,158,73)"
+    },
+    {
+      "name": "Honduras",
+      "visits": "1",
+      "color": "rgb(0,81,186)"
+    },
+    {
+      "name": "Virgin Islands",
+      "visits": "2",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "Brazil",
+      "visits": "3",
+      "color": "rgb(30,181,58)"
+    },
+    {
+      "name": "Burma",
+      "visits": "1",
+      "color": "rgb(254,203,0)"
+    },
+    {
+      "name": "Canary Islands",
+      "visits": "1",
+      "color": "rgb(7,104,169)"
+    },
+    {
+      "name": "Canal Zone",
+      "visits": "7",
+      "color": "rgb(11,14,98)"
+    },
+    {
+      "name": "Carriacou",
+      "visits": "1",
+      "color": "rgb(239,42,12)"
+    },
+    {
+      "name": "Canada",
+      "visits": "8", 
+      "color": "rgb(255,0,0)"
+    },
+    {
+      "name": "Chile",
+      "visits": "4",
+      "color": "rgb(206,17,38)"
+    },
+    {
+      "name": "Colombia",
+      "visits": "12",
+      "color": "rgb(232,17,45)"
+    },
+    {
+      "name": "Cuba",
+      "visits": "2",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "Curacao",
+      "visits": "9",
+      "color": "rgb(0,38,127)"
+    },
+    {
+      "name": "Dominican Republic",
+      "visits": "12",
+      "color": "rgb(0,56,107)"
+    },
+    {
+      "name": "Dominica",
+      "visits": "1",
+      "color": "blue"
+    },
+    {
+      "name": "Ecuador",
+      "visits": "4",
+      "color": "rgb(0,107,63)"
+    },
+    {
+      "name": "Enewetak",
+      "visits": "2",
+      "color": "rgb(0,56,147)"
+    },
+    {
+      "name": "England",
+      "visits": "2",
+      "color": "rgb(0,36,125)"
+    },
+    {
+      "name": "Egypt",
+      "visits": "2",
+      "color": "rgb(206,17,38)"
+    },
+    {
+      "name": "France",
+      "visits": "4",
+      "color": "rgb(0,85,164)"
+    },
+    {
+      "name": "Germany",
+      "visits": "1",
+      "color": "rgb(0,0,0)"
+    },
+    {
+      "name": "Greece",
+      "visits": "2",
+      "color": "rgb(58,117,196)"
+    },
+    {
+      "name": "Guadalupe",
+      "visits": "2",
+      "color": "rgb(0,0,0)"
+    },
+    {
+      "name": "Guam",
+      "visits": "2",
+      "color": "rgb(0,56,168)"
+    },
+    {
+      "name": "Haiti",
+      "visits": "8",
+      "color": "rgb(12,28,140)"
+    },
+    {
+      "name": "Holland",
+      "visits": "1",
+      "color": "rgb(242,164,85)"
+    },
+    {
+      "name": "Hong Kong",
+      "visits": "2",
+      "color": "#ff0000"
+    },
+    {
+      "name": "India",
+      "visits": "1",
+      "color": "#ff9933"
+    },
+    {
+      "name": "Isle de Saints",
+      "visits": "1",
+      "color": "rgb(0,85,164)"
+    },
+    {
+      "name": "Italy",
+      "visits": "5",
+      "color": "#009246"
+    },
+    {
+      "name": "Jamaica",
+      "visits": "5",
+      "color": "rgb(48,138,42)"
+    },
+    {
+      "name": "Japan",
+      "visits": "2",
+      "color": "#CE1126"
+    },
+    {
+      "name": "Yugoslavia",
+      "visits": "1",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Lebanon",
+      "visits": "2",
+      "color": "#ff4019"
+    },
+    {
+      "name": "Majuro",
+      "visits": "1",
+      "color": "#003893"
+    },
+    {
+      "name": "Martinique",
+      "visits": "5",
+      "color": "#0055A4"
+    },
+    {
+      "name": "Menabe",
+      "visits": "1",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Mexico",
+      "visits": "2",
+      "color": "#006847"
+    },
+    {
+      "name": "Montserrat",
+      "visits": "2",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "Morocco",
+      "visits": "1",
+      "color": "#DB0C41"
+    },
+    {
+      "name": "Mozambique",
+      "visits": "1",
+      "color": "#007E64"
+    },
+    {
+      "name": "Palau",
+      "visits": "2",
+      "color": "#007FFF"
+    },
+    {
+      "name": "Panama",
+      "visits": "2",
+      "color": "rgb(0,114,198)"
+    },
+    {
+      "name": "Peru",
+      "visits": "4",
+      "color": "rgb(206,17,38)"
+    },
+    {
+      "name": "Pohnpei",
+      "visits": "1",
+      "color": "#00529B"
+    },
+    {
+      "name": "Portugal",
+      "visits": "1",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Puerto Rico",
+      "visits": "11",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "St. Barts",
+      "visits": "1",
+      "color": "#0055A4"
+    },
+    {
+      "name": "St. Croix",
+      "visits": "3",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "St. John",
+      "visits": "8",
+      "color": "#ff0000"
+    },
+    {
+      "name": "St. Kitts",
+      "visits": "2", 
+      "color": "rgb(0,158,73)"
+    },
+    {
+      "name": "St. Lucia",
+      "visits": "2",
+      "color": "rgb(99,207,254)"
+    },
+    {
+      "name": "St. Martin",
+      "visits": "4",
+      "color": "#0055a4"
+    },
+    {
+      "name": "St. Thomas",
+      "visits": "11",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "St. Vincent",
+      "visits": "4",
+      "color": "rgb(0,158,96)"
+    },
+    {
+      "name": "Saipan",
+      "visits": "5",
+      "color": "#00A0E2"
+    },
+    {
+      "name": "Singapore",
+      "visits": "1",
+      "color": "#EF4135"
+    },
+    {
+      "name": "South Africa",
+      "visits": "1",
+      "color": "#007C59"
+    },
+    {
+      "name": "Spain",
+      "visits": "3",
+      "color": "#AA151B"
+    },
+    {
+      "name": "Syria",
+      "visits": "1",
+      "color": "#E20000"
+    },
+    {
+      "name": "Switzerland",
+      "visits": "1",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Thailand",
+      "visits": "1",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Taiwan",
+      "visits": "1",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Tinian",
+      "visits": "1",
+      "color": "#0077D4"
+    },
+    {
+      "name": "Tobago",
+      "visits": "1",
+      "color": "rgb(206,17,38)"
+    },
+    {
+      "name": "Trinidad",
+      "visits": "3",
+      "color": "rgb(0,0,0)"
+    },
+    {
+      "name": "Truck",
+      "visits": "1",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Ulithi",
+      "visits": "4",
+      "color": "#AA151B"
+    },
+    {
+      "name": "Venezuela",
+      "visits": "16",
+      "color": "rgb(252,209,22)"
+    },
+    {
+      "name": "Virgin Gorda",
+      "visits": "2",
+      "color": "rgb(0,40,104)"
+    },
+    {
+      "name": "Zululand",
+      "visits": "1",
+      "color": "rgb(255,240,36)"
+    },
+    {
+      "name": "Zuizuland",
+      "visits": "1",
+      "color": "#EFC868"
+    }
+  ],
+  "ships": [
+  	{
+      "year": "1936",
+      "name": "SS Ponce"
+    },
+    {
+      "year": "1939",
+      "name": "SS Calypso"
+    },
+    {
+      "year": "1939",
+      "name": "SS Amor"
+    },
+    {
+      "year": "1940",
+      "name": "SS San Juan"
+    },
+    {
+      "year": "1941",
+      "name": "SS Granada"
+    },
+    {
+      "year": "1944",
+      "name": "USS Alimosa"
+    },
+    {
+      "year": "1945",
+      "name": "USS Alcoa Patriot"
+    },
+    {
+      "year": "1946",
+      "name": "SS Island Connector"
+    },
+    {
+      "year": "1948",
+      "name": "SS Canadian Constructor"
+    },
+    {
+      "year": "1950",
+      "name": "SS Gaton"
+    },
+    {
+      "year": "1953",
+      "name": "SS Afoundria"
+    },
+    {
+      "year": "1957",
+      "name": "SS Quirigua"
+    },
+    {
+      "year": "1959",
+      "name": "SS Beatrice"
+    },
+    {
+      "year": "1959",
+      "name": "SS Santa Paula"
+    },
+    {
+      "year": "1960",
+      "name": "SS Santa Sofia"
+    },
+    {
+      "year": "1961",
+      "name": "SS Santa Maria"
+    },
+    {
+      "year": "1962",
+      "name": "SS Santa Sofia"
+    },
+    {
+      "year": "1963",
+      "name": "SS Santa Barbara"
+    },
+    {
+      "year": "1964",
+      "name": "SS Excalibur"
+    },
+    {
+      "year": "1965",
+      "name": "SS Neberland"
+    },
+    {
+      "year": "1965",
+      "name": "SS Princess Margaret"
+    },
+    {
+      "year": "1966",
+      "name": "SS Santa Cecilia"
+    },
+    {
+      "year": "1967",
+      "name": "SS Santa Sofia"
+    },
+    {
+      "year": "1968",
+      "name": "TS Bremen"
+    },
+    {
+      "year": "1968",
+      "name": "MS Europa"
+    },
+    {
+      "year": "1969",
+      "name": "SS Santa Paula"
+    },
+    {
+      "year": "1970",
+      "name": "SS Santa Clara"
+    },
+    {
+      "year": "1972",
+      "name": "SS Santa Lucia"
+    },
+    {
+      "year": "1973",
+      "name": "MV Oriental Rio"
+    },
+    {
+      "year": "1974",
+      "name": "SS Santa Lucia"
+    },
+    {
+      "year": "1975",
+      "name": "SS Santa Barbara"
+    },
+    {
+      "year": "1976",
+      "name": "SS Santa Maria"
+    },
+    {
+      "year": "1977",
+      "name": "SS Mormacrigel"
+    },
+    {
+      "year": "1978",
+      "name": "SS Enna G"
+    },
+    {
+      "year": "1978",
+      "name": "MS Caribe"
+    },
+    {
+      "year": "1978",
+      "name": "MV Independence"
+    },
+    {
+      "year": "1979",
+      "name": "SS Rotterdam"
+    },
+    {
+      "year": "1980",
+      "name": "Queen Elizabeth II"
+    },
+    {
+      "year": "1980",
+      "name": "Delta Queen"
+    },
+    {
+      "year": "1981",
+      "name": "MV Zvir"
+    },
+    {
+      "year": "1981",
+      "name": "Nievw Amsterdam"
+    },
+    {
+      "year": "1985",
+      "name": "Bermuda Star"
+    },
+    {
+      "year": "1986",
+      "name": "Oceanis Stella Solaris"
+    },
+    {
+      "year": "1987",
+      "name": "Oceanis Stella Solaris"
+    },
+    {
+      "year": "1990",
+      "name": "Westerdam"
+    },
+    {
+      "year": "1990",
+      "name": "Queen of Bermuda"
+    },
+    {
+      "year": "1992",
+      "name": "Horizon"
+    }
+
+  ]
 }

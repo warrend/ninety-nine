@@ -4,7 +4,7 @@ import './Countries.css'
 const Country = (props) => {
 	const percentage = () => {
 		const width = Math.floor((props.country.visits / 23) * 100)
-		return width < 20 ? 20 : width 
+		return width < 15 ? 15 : width 
 	}
 
 	const background = props.country.color
@@ -14,7 +14,7 @@ const Country = (props) => {
 		background: background,
 		marginBottom: '1em',
 		alignSelf: 'center',
-		padding: '20px 10px 20px 0'
+		padding: '20px 20px 20px 0'
 	}
 
 	const { name, visits } = props.country

@@ -1,7 +1,7 @@
 .countries {
 	display: grid;
 	grid-template-columns: repeat(98, 1fr);
-	margin: 0 0 2em 0;
+	margin: 1.6em 0 2.4em 0;
 	color: #fff;
 	text-align: right;
 }

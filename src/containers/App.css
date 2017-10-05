@@ -4,15 +4,22 @@
 }
 
 body {
-  font-family: courier;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   color: #222;
 }
 
+html {
+	border-top: 10px solid #222;
+}
+
 h1 {
   font-size: 3.33em;
-  margin: 1.6em 0 .33em 0;
+  font-weight: 700;
+  margin: 1.3em 0 1.3em 0;
+  border-bottom: 5px solid #efefef;
+  padding-bottom: 28px;
 }
 
 
