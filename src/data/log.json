@@ -9,6 +9,11 @@
 		  "name": "China",
 		  "visits": 1,
 		  "color": "blue"
+		},
+		{
+		  "name": "Virgin Islands",
+		  "visits": 2,
+		  "color": "#222"
 		}
 	],
 	"ships": [

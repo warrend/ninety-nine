@@ -1,10 +1,10 @@
 import React from 'react'
-import './Country.css'
+import './Countries.css'
 
 const Country = (props) => {
 	const percentage = () => {
-		const width = Math.floor((props.country.visits / 22) * 100)
-		return width < 15 ? 15 : width 
+		const width = Math.floor((props.country.visits / 23) * 100)
+		return width < 20 ? 20 : width 
 	}
 
 	const background = props.country.color
@@ -14,14 +14,13 @@ const Country = (props) => {
 		background: background,
 		marginBottom: '1em',
 		alignSelf: 'center',
-		border: '1px solid #222',
-		padding: '20px 0 20px 5px'
+		padding: '20px 10px 20px 0'
 	}
 
 	const { name, visits } = props.country
 
 	return (
-		<div style={style}><p>{name} <span>{visits}</span></p></div>
+		<div style={style}><p>{name} {visits}</p></div>
 	)
 }
 
