@@ -2,15 +2,15 @@ import React from 'react'
 import './Countries.css'
 
 const Country = (props) => {
-	const percentage = () => {
-		const width = Math.floor((props.country.visits / 23) * 100)
-		return width < 15 ? 15 : width 
+	const cLength = () => {
+		let visits = parseInt(props.country.visits)
+		return Math.ceil((visits * 3.6) + 20)
 	}
 
 	const background = props.country.color
 
 	const style = {
-		gridColumn: '1 /' + percentage(),
+		gridColumn: '1 /' + cLength(),
 		background: background,
 		marginBottom: '1em',
 		alignSelf: 'center',

@@ -1,5 +1,6 @@
 .container {
   width: 85%;
+  max-width: 1290px;
   margin: 0 auto;
 }
 
@@ -11,7 +12,8 @@ body {
 }
 
 html {
-	border-top: 15px solid #222;
+  border-top: 15px solid #222;
+	border-bottom: 15px solid #222;
 }
 
 img {

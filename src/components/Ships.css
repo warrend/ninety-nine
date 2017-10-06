@@ -1,0 +1,7 @@
+.ships {
+	display: grid;
+	grid-template-columns: repeat(98, 1fr);
+	margin: 1.6em 0 2.4em 0;
+	color: #fff;
+	text-align: right;
+}
