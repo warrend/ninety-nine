@@ -17,7 +17,7 @@ class Travels extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Travels</h1>
+				<h1>Visits Per Country</h1>
 				<Countries countries={this.state.countries} />
 				<h1>Ships</h1>
 				<Ships ships={this.state.ships} />
