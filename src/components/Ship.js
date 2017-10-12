@@ -2,13 +2,14 @@ import React from 'react'
 import './Ship.css'
 
 const Ship = (props) => {
-	const sw = window.screen.width
+	//const sw = window.screen.width
 	const percentage = () => {
-		if (sw > 415) {
-			return Math.floor((props.ship.year - 1892) - 25)
-		} else {
-			return parseInt(props.ship.year, 10) - 1872
-		}
+		// if (sw > 415) {
+			let s = parseInt(props.ship.year, 10)
+			return Math.floor((s - 1892) - 25)
+		// } else {
+		// 	return parseInt(props.ship.year, 10) - 1872
+		// }
 	}
 
 	const style = {

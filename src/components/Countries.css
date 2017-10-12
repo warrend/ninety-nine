@@ -6,3 +6,8 @@
 	text-align: right;
 }
 
+@media (max-width: 415px) {
+  .countries {
+    grid-template-columns: repeat(50, 1fr);
+  }
+}

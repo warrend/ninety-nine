@@ -5,3 +5,13 @@
 	color: #fff;
 	text-align: right;
 }
+
+@media (max-width: 415px) {
+  .ships {
+		display: grid;
+		grid-template-columns: repeat(50, 1fr);
+		margin: 1.6em 0 2.4em 0;
+		color: #fff;
+		text-align: right;
+	}
+}
