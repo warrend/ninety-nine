@@ -10,11 +10,11 @@ const Ships = (props) => {
 	return (
 		<div>
 			<div className="ships">
-				{props.ships.map(data => {
-					return <Ship ship={data} />
+				{props.ships.map((data, key) => {
+					return <Ship key={key} ship={data} />
 				})}
 			</div>
-			<small>&copy;{year()}</small>
+			<small>&copy;{year()} | warrend555@gmail.com</small>
 		</div>
 	)
 }

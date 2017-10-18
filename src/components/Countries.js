@@ -9,8 +9,8 @@ const Countries = (props) => {
 
 	return (
 		<div className="countries">
-			{sortedVisits.map(data => {
-				return <Country country={data} />
+			{sortedVisits.map((data, key) => {
+				return <Country key={key} country={data} />
 			})}
 		</div>
 	)
