@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ninety-nine/static/css/main.f166fa60.chunk.css",
+    "main.css": "/ninety-nine/static/css/main.5bd75711.chunk.css",
     "main.js": "/ninety-nine/static/js/main.1d33fb87.chunk.js",
     "main.js.map": "/ninety-nine/static/js/main.1d33fb87.chunk.js.map",
     "runtime-main.js": "/ninety-nine/static/js/runtime-main.121289fe.js",
@@ -8,14 +8,14 @@
     "static/js/2.2341da4b.chunk.js": "/ninety-nine/static/js/2.2341da4b.chunk.js",
     "static/js/2.2341da4b.chunk.js.map": "/ninety-nine/static/js/2.2341da4b.chunk.js.map",
     "index.html": "/ninety-nine/index.html",
-    "static/css/main.f166fa60.chunk.css.map": "/ninety-nine/static/css/main.f166fa60.chunk.css.map",
+    "static/css/main.5bd75711.chunk.css.map": "/ninety-nine/static/css/main.5bd75711.chunk.css.map",
     "static/js/2.2341da4b.chunk.js.LICENSE.txt": "/ninety-nine/static/js/2.2341da4b.chunk.js.LICENSE.txt",
     "static/media/gracie.f76f4306.jpg": "/ninety-nine/static/media/gracie.f76f4306.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.121289fe.js",
     "static/js/2.2341da4b.chunk.js",
-    "static/css/main.f166fa60.chunk.css",
+    "static/css/main.5bd75711.chunk.css",
     "static/js/main.1d33fb87.chunk.js"
   ]
 }
